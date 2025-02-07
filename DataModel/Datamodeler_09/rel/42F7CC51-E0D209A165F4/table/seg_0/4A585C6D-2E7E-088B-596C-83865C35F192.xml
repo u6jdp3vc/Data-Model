@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A585C6D-2E7E-088B-596C-83865C35F192" name="ExamRoom">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:33:09 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Room_ID" id="83C7DCCA-13A6-A9E6-EBDF-5ED48A7B2A68">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:33:32 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Std_id" id="B9449132-C205-3482-1A16-EA13E4B541C8">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:33:52 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subject_Sub_ID" id="08935810-7BA6-7D1D-DC42-997E90CA4047">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:34:13 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5458538-DEE8-CEB7-7E56-3D6D5760F66C" referredColumn="68A5DD77-FB0A-B1A9-58A4-BF4AD073C58E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="722A5EEC-9EE4-CEAB-FBBE-3DDB0EF5B02A" name="ExamRoom_PK">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:33:32 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83C7DCCA-13A6-A9E6-EBDF-5ED48A7B2A68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1152945-7C41-3330-9048-E0F44EEB2C38" name="ExamRoom__UN">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 09:02:29 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9449132-C205-3482-1A16-EA13E4B541C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AA22637-A0BE-1885-3EB3-9FF35C543F57" name="Sub_ID">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:34:13 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08935810-7BA6-7D1D-DC42-997E90CA4047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

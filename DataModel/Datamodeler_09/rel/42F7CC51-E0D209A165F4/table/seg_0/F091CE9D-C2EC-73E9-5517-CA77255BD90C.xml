@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F091CE9D-C2EC-73E9-5517-CA77255BD90C" name="Register">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:25:00 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reg_ID" id="B572D88C-1AFB-BE40-5122-CF5DEE50D66A">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:25:29 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="std_fname" id="CD3176E7-9B04-CEE0-018E-7BE2D2BA03F4">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:25:51 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="std_lname" id="681EB6DD-36E8-8C8D-1FD1-50B86921FF71">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:26:16 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Schedule_Sub_Name" id="39300793-580C-3F17-1E8D-BD815D725B0F">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:28:01 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE51D525-EF79-B230-9A0A-AA456D453342" referredColumn="14862E4C-A838-9A3E-5020-DED5B3356B2B"/>
+</associations>
+</Column>
+<Column name="ExamField_Field_ID" id="2A11061E-48B1-E99A-987C-D564F5AEF54D">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 09:31:39 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42858093-D8CA-22F3-0288-8EFDF828611B" referredColumn="12E28CA7-4717-66C8-C83A-4FEB2397D2D4"/>
+</associations>
+</Column>
+<Column name="std_tel" id="69F6E3F5-D95D-F448-74EF-7C8B1CC52D62">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 09:00:59 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="std_id" id="1F345315-B8DF-B989-9BD8-AE964AC8EBE9">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 09:31:25 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E3B53A4-80D4-BFFB-EECF-69DBA792CBF5" referredColumn="B572D88C-1AFB-BE40-5122-CF5DEE50D66A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AB1BD20-7B28-4C1B-5B1A-90966E6EF4E4" name="Register_PK">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:25:29 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B572D88C-1AFB-BE40-5122-CF5DEE50D66A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5BE7681-8350-CE76-B2E3-EEAC4B7A6511" name="Register__UN">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 09:01:11 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69F6E3F5-D95D-F448-74EF-7C8B1CC52D62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADEBA751-ECF5-AE22-D78D-E1CD446EA095" name="Sub_Name">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:28:01 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39300793-580C-3F17-1E8D-BD815D725B0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C71E83E5-9688-52C5-64A6-C44F9CF8311F" name="Field_ID">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:32:38 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A11061E-48B1-E99A-987C-D564F5AEF54D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A18386D-8399-63C3-F1E5-719E17FBBA86" name="std_id">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 09:29:25 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F345315-B8DF-B989-9BD8-AE964AC8EBE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

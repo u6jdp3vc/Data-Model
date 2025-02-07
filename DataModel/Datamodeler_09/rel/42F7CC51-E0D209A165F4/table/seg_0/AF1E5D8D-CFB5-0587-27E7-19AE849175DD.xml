@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF1E5D8D-CFB5-0587-27E7-19AE849175DD" name="Schedule">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:26:54 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sub_Name" id="14862E4C-A838-9A3E-5020-DED5B3356B2B">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:27:26 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Time" id="9BF082A4-356D-8EE8-C9F8-C7AA07FB6FBF">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:27:37 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="CB5E6B82-923F-9BF7-0806-6B27973B3743">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:27:47 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ExamRoom_Room_ID" id="20E0F818-D7A1-CDB9-07DD-77BD2BA6143A">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:35:54 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D309DA68-50AC-E3A9-179E-ED37B783B436" referredColumn="83C7DCCA-13A6-A9E6-EBDF-5ED48A7B2A68"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D3B9BFA-4E91-890E-3D7F-B9782B2021DE" name="Schedule_PK">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:27:26 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14862E4C-A838-9A3E-5020-DED5B3356B2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10BC1E27-E970-3913-8ED4-C533184A068D" name="Room_IDv2">
+<createdBy>Computer</createdBy>
+<createdTime>2024-02-26 08:35:54 UTC</createdTime>
+<ownerDesignName>Datamodeler_09</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E0F818-D7A1-CDB9-07DD-77BD2BA6143A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
